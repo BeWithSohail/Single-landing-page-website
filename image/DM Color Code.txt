@@ -1,0 +1,31 @@
+Color Code
+
+Pages Text Color :- #1fabcc
+Page1 Text Color :- #cb031b
+Pages Background :- #141414
+
+
+
+	font-size: 12px;
+	color: #fff;
+	border-radius: 0;
+	background: #1fabcc;
+	border: 1px solid #ffffff;
+	padding: 10px 4px;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	border-left: none;
+	padding: 10px 4px;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+
+At Go Daddy the future of work looks different for each team. Some teams work in the office full-time,others have a hybrid 
+arrangement (they work remotely some days and in the office some days) and some work entirely remotely.
+This is a remote position, so you'll be working remotely from your home. Once we can safely travel,you may occasionally visit a GoDaddy office to meet with your team for events or offsites.
+
+You will:
+Partners with multiple groups to gather information and feedback.
+Work asynchronously within a small team to produce high quality documentation used by both internal and external audiences.  

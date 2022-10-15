@@ -1,0 +1,1091 @@
+/*! normalize.css v8.0.1 */
+@import url('http://fonts.cdnfonts.com/css/montserrat');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+
+html {
+	line-height: 1;
+	-webkit-text-size-adjust: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+	overflow-x: hidden;
+	font-family: 'Montserrat', sans-serif;
+}
+
+a {
+	font-size: 12px;
+	text-decoration: none;
+	transition: all 0.1s ease-in;
+	-webkit-transition: all 0.1s ease-in;
+	-moz-transition: all 0.1s ease-in;
+	-ms-transition: all 0.1s ease-in;
+}
+
+a:hover {
+	color: #00a5ca;
+	;
+	text-decoration: none;
+}
+
+a:focus {
+	text-decoration: none;
+}
+
+b,
+strong {
+	font-weight: 700;
+}
+
+img {
+	border-style: none;
+}
+
+textarea {
+	overflow: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 600;
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+p {
+	font-size: 14px;
+	line-height: 22px;
+	color: #fff;
+}
+
+h1 {
+	color: #fff;
+}
+
+li {
+	color: #fff;
+}
+
+button {
+	color: #fff;
+}
+
+h2 {}
+
+h3 {}
+
+h4 {}
+
+ul li {
+	list-style: none;
+}
+
+section {
+	padding: 50px 0;
+}
+
+
+.pb-0 {
+	padding-bottom: 0 !important;
+}
+
+.pt-0 {
+	padding-top: 0 !important;
+}
+
+.pl-0 {
+	padding-left: 0 !important;
+}
+
+.pr-0 {
+	padding-right: 0 !important;
+}
+
+.mb-0 {
+	margin-bottom: 0 !important;
+}
+
+.mt-0 {
+	margin-top: 0 !important;
+}
+
+.ml-0 {
+	margin-left: 0 !important;
+}
+
+.mr-0 {
+	margin-right: 0 !important;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-justify {
+	text-align: justify;
+}
+
+
+/** footer css here **/
+
+.footer-bg {
+	background-image: linear-gradient(90deg, #17397b 0%, #2565b1 100%);
+}
+
+.digit-money-header-logo {
+	max-width: 170px;
+}
+
+.digit-money-header-logo img {
+	width: 100%;
+}
+
+.footer-external-link ul {
+	margin-bottom: 0;
+}
+
+.third-party-pages-bank {
+	margin-bottom: 20px;
+}
+
+.copyright-section {
+	color: #fff;
+	background-color: #000 !important;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	position: relative;
+}
+
+.footer-logo-description {}
+
+.footer-logo-pnl {
+	max-width: 170px;
+}
+
+.footer-logo-pnl img {
+	width: 100%;
+}
+
+.footer-logo-description p {
+	font-size: 12px;
+	line-height: 1.5;
+	width: 300px;
+	margin-top: 15px;
+	color: #fff;
+}
+
+.social-media-footer-icon {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.third-part-pages {
+	margin-bottom: 30px;
+}
+
+.social-media-footer-icon a {
+	font-size: 22px;
+	margin-right: 15px;
+	color: #fff;
+}
+
+.social-media-footer-icon a i {}
+
+.third-part-pages {}
+
+.third-part-pages h5 {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+}
+
+.third-part-pages ul {}
+
+.third-part-pages ul li {
+	line-height: 28px;
+	color: #fff;
+}
+
+.third-part-pages ul li a {
+	font-weight: 350;
+	font-size: 12px;
+	color: #fff;
+}
+
+.third-part-pages ul li a:hover {
+	color: #e02717;
+
+}
+
+.address-section {}
+
+.address-section h5 {
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+}
+
+.address-section address {
+	font-size: 12px;
+	font-weight: 300;
+	color: #fff;
+}
+
+.address-section address strong {
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.footer-external-link ul li {
+	line-height: 25px;
+}
+
+.footer-external-link ul li a {
+	font-weight: 300;
+	font-size: 12px;
+	color: #fff;
+}
+
+.footer-external-link ul li a:hover {
+	color: #e02717;
+}
+
+.copyright-section {}
+
+.footer-text {}
+
+.copyright-description p {
+	font-size: 14px;
+	font-weight: 300;
+	margin-bottom: 0;
+	color: #fff;
+}
+
+
+/** end here **/
+
+
+/** Contact Us section  **/
+
+.contact-section {
+	background: #f4f4f4;
+}
+
+.contact-email-section {
+	text-align: center;
+}
+
+.contact-email-section h3 {
+	color: #282828;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.contact-email-section h1 {
+	color: #235da8;
+	font-size: 70px;
+	font-weight: 400;
+	margin-top: 70px;
+}
+
+
+.section-title {
+	font-size: 40px;
+	color: #0e2038;
+	font-weight: 300;
+}
+
+/** End **/
+
+
+/** first banner section **/
+.banner-content-section {
+
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 460px;
+}
+
+.banner-content-section h1 {
+
+	font-size: 65px;
+}
+
+.banner-bg {
+	height: 100vh;
+	background: url(../image/bg-banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+/** end **/
+
+/** second banner section **/
+.banner-bg2 {
+	height: 100vh;
+	background: url(../image/bg-bannner2.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+}
+
+.our-services-parent {}
+
+.our-services-section {}
+
+.our-services-section h2 {
+
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+
+.grid-image-our-service {
+
+	text-align: center;
+}
+
+.grid-image-our-service ul {}
+
+.grid-image-our-service ul li {
+
+	display: inline-block;
+	text-align: center;
+	margin: 10px 35px;
+	vertical-align: top;
+}
+
+.grid-image-our-service ul li img {
+
+	max-width: 60px;
+	height: 45px;
+}
+
+.grid-image-our-service ul li h2 {
+
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 0;
+	margin-top: 35px;
+}
+
+
+/** end second banner section **/
+
+/** third banner section **/
+.banner-bg3 {
+	height: 100vh;
+	background: url(../image/banner-bg3.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+}
+
+.performacne-marketing-parent {
+	text-align: center;
+}
+
+.performacne-marketing {}
+
+.performacne-marketing h2 {
+
+	font-weight: 800;
+	margin-bottom: 12px;
+	font-size: 35px;
+}
+
+.performacne-marketing h3 {
+
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 35px;
+}
+
+.web-page-grid {
+	text-align: center;
+	margin-top: 50px;
+}
+
+.web-page-grid ul {}
+
+.web-page-grid ul li {
+	display: inline-block;
+	text-align: center;
+	margin: 10px 35px;
+	vertical-align: top;
+}
+
+.web-page-grid ul li.less-right-margin {
+	margin-right: 25px;
+
+}
+
+.web-page-grid ul li img {
+	max-width: 60px;
+	height: 45px;
+}
+
+.web-page-grid ul li h2 {
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 0;
+	margin-top: 35px;
+}
+
+/** End 3rd banner section **/
+
+
+/** 4th banner section **/
+.banner-bg4 {
+	background: url(../image/banner-bg4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.industry-parent {}
+
+.industry-serve {}
+
+.industry-serve h2 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.industries-grid {
+
+	text-align: center;
+}
+
+.industries-grid ul {}
+
+.industries-grid ul li {
+	display: inline-block;
+	width: 17%;
+	cursor: pointer;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.5s ease-in;
+	-moz-transition: all 0.5s ease-in;
+	-ms-transition: all 0.5s ease-in;
+
+	margin-bottom: 25px;
+}
+
+
+.industries-grid ul li img {
+	width: 160px;
+}
+
+.industries-grid ul li:hover {
+	transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+}
+
+/** End 4th banner section **/
+
+
+/** Start Performance banner section **/
+.banner-bg-performance {
+	background: url(../image/performance-bg-banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100%;
+	padding-bottom: 180px;
+}
+
+.performace-section {
+
+	text-align: center;
+}
+
+.performace-section h2 {
+
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 180px;
+}
+
+.performance-description-section {
+	position: relative;
+}
+
+.performance-description {
+	display: inline-block;
+}
+
+.box-1space {
+	position: absolute;
+	width: 20%;
+	top: -130px;
+	left: 4%;
+}
+
+.box-2space {
+
+	position: absolute;
+	width: 24%;
+	top: -130px;
+	left: 30%;
+}
+
+.box-3space {
+
+	position: absolute;
+	width: 20%;
+	top: -130px;
+	right: 18%;
+}
+
+.box-4space {
+
+	position: absolute;
+	width: 22%;
+	bottom: -160px;
+	left: 17%;
+}
+
+.box-5space {
+	position: absolute;
+	position: absolute;
+	width: 30%;
+	bottom: -140px;
+	left: 42%;
+}
+
+.box-6space {
+
+	position: absolute;
+	width: 25%;
+	bottom: -182px;
+	right: 0%;
+}
+
+.performance-description h3 {
+	font-weight: 400;
+	font-size: 16px;
+}
+
+.performance-description p {
+
+	font-size: 14px;
+}
+
+.performance-graphic-img {}
+
+.performance-graphic-img img {
+	/* width: 100%; */
+}
+
+/** End Performance banner section **/
+
+
+/** Role  section **/
+.role-banner-profile-bg {
+	background-image: linear-gradient(90deg, #17397b 0%, #2565b1 100%);
+	height: auto;
+}
+
+.role-banner-bg {
+	background-image: linear-gradient(90deg, #17397b 0%, #2565b1 100%);
+	height: auto;
+}
+
+.role-text-box {
+	width: 80%;
+	margin: auto;
+}
+
+.role-text-box h2 {
+
+	font-size: 25px;
+	font-weight: 600;
+	/* margin: 0; */
+	margin-bottom: 30px;
+}
+
+.profile-details-box {
+	border-top: 3px dashed #fff;
+	padding: 10px 0;
+}
+
+.profile-details-box a {
+	color: #fff;
+	font-size: 17px;
+	font-weight: 400;
+	text-decoration: underline;
+	display: block;
+	padding: 5px 0;
+}
+
+.profile-details-box a:hover {
+	color: #e8e5e5;
+}
+
+.profile-details-box:last-child {
+	border-bottom: 3px dashed #fff;
+}
+
+.role-details-parent2 .profile-details-box:last-child {
+	border-bottom: 3px dashed #fff !important;
+}
+
+.profile-details-box p {
+	margin-bottom: 0;
+}
+
+.profile-text-box {}
+
+.profile-text-box h2 {}
+
+.role-banner-bg {}
+
+.profile-text-box {}
+
+.profile-text-box h2 {
+
+	font-size: 25px;
+	font-weight: 600;
+
+	margin-bottom: 15px;
+}
+
+.job-description-details {}
+
+.job-description-details p {
+
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.job-description-details p strong {
+
+	font-weight: 600;
+}
+
+.technical-listing {}
+
+.technical-listing p {
+	margin-bottom: 0;
+}
+
+.technical-listing ul {
+
+	margin-left: 15px;
+}
+
+.technical-listing ul strong {
+
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.technical-listing ul li {
+
+	font-size: 14px;
+	line-height: 20px;
+	list-style-type: disc;
+}
+
+.experience-details p {
+
+	margin-bottom: 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.skills-department {
+
+	margin-top: 15px;
+}
+
+.skills-department p {
+
+	line-height: 20px;
+	font-size: 14px;
+}
+
+.skills-department p strong {}
+
+.skills-department p a {
+
+	display: block;
+	font-size: 20px;
+	color: #fff;
+	text-decoration: underline;
+	font-weight: normal;
+	margin-top: 7px;
+}
+
+.applynow-cta {
+	font-size: 16px;
+	color: #183e82;
+	border-radius: 0;
+	background: white;
+	border: 1px solid #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	display: block;
+	width: 220px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 5px;
+	margin-top: 30px;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+.applynow-cta:hover {
+	background: none;
+	color: #fff;
+}
+
+/** End here **/
+
+.see-more-section {}
+
+.see-more-cta,
+.see-less {
+	font-size: 16px;
+	color: #183e82;
+	border-radius: 0;
+	background: white;
+	border: 1px solid #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	display: block;
+	width: 220px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 5px;
+	margin-top: 20px;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+.see-more-section .see-less {
+	display: none;
+}
+
+.see-more-cta:hover,
+.see-less:hover {
+	background: none;
+	color: #fff;
+}
+
+.role-details-parent2 {
+	display: none;
+}
+
+/** Start 5th banner section **/
+.banner-bg5 {
+	height: 100vh;
+	background: url(../image/banner-bg5.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+}
+
+.platform-use {}
+
+.platform-use h2 {
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 60px;
+}
+
+.platform-grid-icon {}
+
+.social-icon-platform {}
+
+.social-icon-platform img {}
+
+.social-icon-platform h2 {}
+
+.platform-grid-icon {
+	text-align: center;
+	margin-top: 40px;
+	position: relative;
+}
+
+.social-icon-platform {
+
+	margin-bottom: 60px;
+}
+
+.social-icon-platform img {
+
+	width: 90px;
+	height: 90px;
+}
+
+.social-icon-platform h3 {
+
+	font-size: 14px;
+	text-transform: uppercase;
+	margin-top: 15px;
+	font-weight: 500;
+}
+
+.underline-border {
+	position: absolute;
+	width: 1050px;
+	height: 1px;
+	background: #d6d6d6;
+	top: 42%;
+	left: 30px;
+}
+
+.vertical-border,
+.vertical-border2,
+.vertical-border3 {
+	position: relative;
+}
+
+.vertical-border::after {
+	position: absolute;
+	top: -20px;
+	right: 0;
+	content: "";
+	width: 1px;
+	height: 370px;
+	background: #d6d6d6;
+}
+
+.vertical-border2::after {
+	position: absolute;
+	top: -20px;
+	right: 1px;
+	content: "";
+	width: 1px;
+	height: 370px;
+	background: #d6d6d6;
+}
+
+.vertical-border3::after {
+	position: absolute;
+	top: -20px;
+	right: 0;
+	content: "";
+	width: 1px;
+	height: 370px;
+	background: #d6d6d6;
+}
+
+/** End 5th banner section **/
+
+
+/** Start 6th banner section **/
+.banner-bg6 {
+	background: url(../image/banner-bg6.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+
+.clients-section {
+	text-align: center;
+}
+
+.clients-section h2 {
+
+	text-align: center;
+	font-size: 32px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.clients-section ul {}
+
+.clients-section ul li {
+	width: 15%;
+	display: inline-block;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.clients-section ul li img {
+	max-width: 150px;
+}
+
+/** End 6th banner section **/
+
+/** Start 7th banner section **/
+.banner-bg7 {
+	height: 100vh;
+	background: url(../image/banner-bg4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+}
+
+.hiring-section h1 {
+	font-size: 65px;
+}
+
+.cta-rules {
+	font-size: 16px;
+	color: #183e82;
+	border-radius: 0;
+	background: white;
+	border: 1px solid #ffffff;
+	text-transform: capitalize;
+	font-weight: 600;
+	display: block;
+	width: 300px;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 5px;
+	margin-top: 100px;
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+	-ms-transition: all 0.3s ease-in;
+	-o-transition: all 0.3s ease-in;
+}
+
+.cta-rules:hover {
+	background: none;
+	color: #fff;
+}
+
+/** End 7th banner section **/
+
+
+/** scroll to top **/
+
+.scroll-top-field {
+	position: absolute;
+	bottom: 10px;
+	right: 20px;
+	cursor: pointer;
+}
+
+.scroll-img-field i {
+	font-size: 26px;
+	color: #ffffff;
+}
+
+.scroll-down-section {
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+}
+
+.scroll-second {
+	width: 40px;
+	height: 40px;
+	margin-left: -20px;
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	text-align: center;
+	text-decoration: none;
+	-webkit-transition: all 500ms cubic-bezier(.25, .46, .45, .94);
+	-moz-transition: all 500ms cubic-bezier(.25, .46, .45, .94);
+	-o-transition: all 500ms cubic-bezier(.25, .46, .45, .94);
+	transition: all 500ms cubic-bezier(.25, .46, .45, .94);
+	display: block;
+	cursor: pointer;
+}
+
+.scroll-second::before {
+	display: block;
+	content: "";
+	width: 20px;
+	height: 20px;
+	margin: 0 0 0 -10px;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	background: #fff;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	border-radius: 2px;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	transform: rotate(45deg);
+	-webkit-transition: all 500ms cubic-bezier(.25, .46, .45, .94);
+	-moz-transition: all 500ms cubic-bezier(.25, .46, .45, .94);
+	-o-transition: all 500ms cubic-bezier(.25, .46, .45, .94);
+	transition: all 500ms cubic-bezier(.25, .46, .45, .94);
+	z-index: 1;
+}
+
+.scroll-second i {
+	color: #2158a1;
+	z-index: 2;
+	margin-top: 23px;
+	display: block;
+	position: relative;
+	font-size: 14px;
+}
+
+.current-opening {
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	display: inline-block;
+	margin-top: 50px;
+}
+
+.current-opening:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/** end **/
+
+
+/** end **/

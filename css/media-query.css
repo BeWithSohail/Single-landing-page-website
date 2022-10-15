@@ -1,0 +1,356 @@
+/** for large device resolution **/
+@media (min-width: 1400px) {
+	.role-banner-bg {
+		height: 100vh;
+	}
+}
+
+/** for large device resolution **/
+@media (min-width: 1600px) {}
+
+/** for ipad resolution **/
+@media only screen and (max-width: 768px) {
+	.role-banner-bg {
+		min-height: 100vh;
+	}
+
+	section {
+		padding: 40px 0;
+	}
+
+	.performance-description {
+		display: inline-block;
+		position: static;
+		width: 100%;
+	}
+
+	.performance-graphic-img img {
+		width: 100%;
+	}
+
+	.contact-email-section h1 {
+		font-size: 40px;
+		margin-top: 40px;
+	}
+
+	.contact-email-section h3 {
+		font-size: 30px;
+	}
+
+	.banner-content-section h1 {
+		font-size: 45px;
+		line-height: 70px;
+	}
+
+	.banner-content-section {
+		width: 100%;
+		height: 870px;
+	}
+
+	.our-services-section h2 {
+		font-size: 25px;
+	}
+
+	.grid-image-our-service ul li {
+		margin: 10px 18px;
+	}
+
+	.performacne-marketing h2 {
+		font-size: 30px;
+	}
+
+	.performacne-marketing h3 {
+		font-size: 20px;
+		font-weight: 500;
+		line-height: 30px;
+	}
+
+	.industry-serve h2 {
+		font-size: 25px;
+	}
+
+	.industries-grid ul li {
+		width: 25%;
+		margin-bottom: 0;
+	}
+
+	.platform-use h2 {
+		font-size: 25px;
+		margin-bottom: 50px;
+	}
+
+	.underline-border {
+		width: 100%;
+		top: 42%;
+		left: 0;
+	}
+
+	.vertical-border2::after {
+		top: 0;
+		right: 1px;
+		height: 330px;
+	}
+
+	.vertical-border::after {
+		top: 0;
+		right: 1px;
+		height: 330px;
+	}
+
+	.vertical-border3::after {
+		top: 0;
+		right: 1px;
+		height: 330px;
+	}
+
+	.performace-section h2 {
+		font-size: 25px;
+		margin-bottom: 40px;
+	}
+
+	.performance-description p {
+		font-size: 14px;
+		line-height: 26px;
+	}
+
+	.box-4space {
+		margin-top: 25px;
+	}
+
+	.clients-section h2 {
+		font-size: 25px;
+		margin-bottom: 40px;
+	}
+
+	.clients-section ul li {
+		width: 20%;
+	}
+
+	.hiring-section h1 {
+		font-size: 45px;
+		line-height: 70px;
+	}
+
+	.current-opening {
+		margin-top: 30px;
+	}
+
+	.banner-bg-performance {
+		padding-bottom: 40px;
+	}
+
+}
+
+/** for Mobile resolution **/
+@media only screen and (max-width: 767px) {
+	.banner-content-section h1 {
+		font-size: 30px;
+		line-height: 50px;
+		text-align: center;
+	}
+
+	.hiring-section {
+		text-align: center;
+	}
+
+	.role-text-box {
+		width: 90%;
+		margin: auto;
+	}
+
+	.see-more-cta,
+	.see-less,
+	.applynow-cta {
+		width: 100%;
+	}
+
+	.profile-text-box h2 {
+		font-size: 20px;
+	}
+
+	.role-text-box h2 {
+		font-size: 20px;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+
+	.profile-details-box a {
+		font-size: 16px;
+	}
+
+	.banner-content-section {
+		width: 100%;
+		height: 600px;
+		justify-content: center;
+
+	}
+
+	.grid-image-our-service ul li {
+		margin: 50px 35px;
+		display: inline-block;
+	}
+
+	.banner-bg2 {
+		height: auto;
+	}
+
+	.our-services-section h2 {
+		margin-bottom: 15px;
+		font-size: 25px;
+	}
+
+	.industries-grid ul li {
+		width: 30%;
+		margin-bottom: 0;
+	}
+
+	.industries-grid ul li img {
+		width: 100%;
+	}
+
+	.industry-serve h2 {
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+
+	.performacne-marketing h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.performacne-marketing h3 {
+		font-size: 15px;
+		font-weight: 500;
+		line-height: 28px;
+	}
+
+	.web-page-grid ul li.less-right-margin {
+		display: block;
+		margin: 30px 0;
+	}
+
+	.web-page-grid ul li h2 {
+		margin-top: 20px;
+	}
+
+	.web-page-grid ul li.less-right-margin {
+		display: block;
+		margin: 40px 0;
+	}
+
+	.web-page-grid {
+		text-align: center;
+		margin-top: 40px;
+	}
+
+	.platform-use h2 {
+		font-size: 22px;
+		margin-bottom: 40px;
+	}
+
+	.social-icon-platform img {
+		width: 60px;
+		height: 60px;
+	}
+
+	.grid-image-our-service ul li h2 {
+		line-height: 26px;
+	}
+
+	.performacne-marketing h2 br {
+		display: none;
+	}
+
+	.performace-section h2 {
+		font-size: 22px;
+		margin-bottom: 30px;
+	}
+
+	.clients-section h2 {
+		font-size: 22px;
+		margin-bottom: 20px;
+	}
+
+	.clients-section ul li img {
+		max-width: 100%;
+	}
+
+	.clients-section ul li {
+		width: 30%;
+	}
+
+	.contact-email-section h3 {
+		font-size: 25px;
+	}
+
+	.contact-email-section h1 {
+		font-size: 30px;
+		margin-top: 30px;
+	}
+
+	.hiring-section h1 {
+		font-size: 30px;
+		line-height: 50px;
+	}
+
+	.current-opening {
+		margin-top: 0px;
+	}
+
+	.digit-money-header-logo {
+		max-width: 150px;
+		margin: auto;
+	}
+
+	.banner-bg5 {
+		height: auto;
+	}
+
+	.social-icon-platform img {
+		width: 100%;
+		height: 100%;
+	}
+
+	.social-icon-platform {
+		margin-bottom: 30px;
+	}
+
+	.vertical-border::after,
+	.vertical-border2::after,
+	.vertical-border3::after {
+		display: none;
+	}
+
+	.underline-border {
+		display: none;
+	}
+
+	.platform-grid-icon .col {
+		width: 22%;
+		display: inline-block;
+	}
+
+	.platform-grid-icon .row {
+		display: block;
+	}
+
+	.banner-bg4 {
+		height: 100vh;
+	}
+
+	.banner-bg5 {
+		height: 100vh;
+	}
+}
+
+/** for Mobile resolution **/
+@media only screen and (max-width: 520px) {}
+
+/** for Mobile resolution **/
+@media only screen and (max-width: 480px) {}
+
+/** for Mobile resolution **/
+@media only screen and (max-width:375px) {}
+
+/** for Mobile resolution **/
+@media only screen and (max-width:320px) {}
